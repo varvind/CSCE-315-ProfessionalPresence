@@ -4,8 +4,79 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Arvind Venkatesan</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-image: url('images/DSC_0330.JPG');
+      background-position: center top;
+      background-size: cover;
+      /* position: absolute; */
+      height:600px;
+    }
+    .navbar {
+      background: rgba(0,0,0,0.4);
+    }
+    a {
+      color: white;
+      font-weight: 600;
+    }
+    a:hover {
+      color: darkgray
+    }
+    .name {
+      color: white;
+      font-size:60px;
+      margin-top: 13%;
+      margin-left:15%
+    }
+    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+    .typer {
+      border-right: solid 3px rgba(0,255,0,.75);
+      white-space: nowrap;
+      overflow: hidden;    
+      font-family: 'Source Code Pro', monospace;  
+      font-size: 28px;
+      color: rgba(255,255,255,.70);
+    }
+
+    /* Animation */
+    .typer {
+      animation: animated-text 4s steps(29,end) 1s 1 normal both,
+                animated-cursor 600ms steps(29,end) infinite;
+      margin-left:17.5%
+    }
+
+    /* text animation */
+
+    @keyframes animated-text{
+      from{width: 0;}
+      to{width: 410px;}
+    }
+
+    /* cursor animations */
+
+    @keyframes animated-cursor{
+      from{border-right-color: black;}
+      to{border-right-color: transparent;}
+    }
+  </style>
 </head>
 <body>
-  <h4>Hello world</h4>
+  <nav class="navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul id="menu-main-nav" class="navbar-nav nav-fill w-100">
+      <li id="menu-item-42" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-42"><a href="index.html" class="nav-link">Home</a></li>
+      <li id="menu-item-963" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-963"><a href="XXX" class="nav-link">About me</a></li>
+      <li id="menu-item-40" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="XXX" class="nav-link">Technical Qualifications</a></li>
+      <li id="menu-item-40" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="XXX" class="nav-link">Portfolio</a></li>
+      <li id="menu-item-40" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="XXX" class="nav-link">Service</a></li>
+      <li id="menu-item-40" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="XXX" class="nav-link">Shhhh</a></li>
+    </ul>
+  </nav>
+  <h1 class = "name">Arvind Venkatesan</h1>
+  <h3 class = "typer">Aspiring Software Engineer</h3>
 </body>
 </html>
