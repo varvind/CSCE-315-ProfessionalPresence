@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+}
+body {
+  background-image: url('../images/DSC_0330.JPG');
+  background-position: center top;
+  background-size:cover;
+  background-repeat: no-repeat;
+  /* position: absolute; */
+  height:600px;
+}
+.navbar {
+  background: rgba(0,0,0,0.4);
+}
+a {
+  color: white;
+  font-weight: 600;
+  font-size: 90%;
+}
+a:hover {
+  color: darkgray
+}
+.name {
+  color: white;
+  font-size:400%;
+  margin-top: 13%;
+  margin-left:15%
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.typer {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+}
+
+/* Animation */
+.typer {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+            animated-cursor 600ms steps(29,end) infinite;
+  margin-left:17.5%
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 410px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: black;}
+  to{border-right-color: transparent;}
+}
