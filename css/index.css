@@ -48,7 +48,7 @@ a:hover {
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 410px;}
+  to{width: 440px;}
 }
 
 /* cursor animations */

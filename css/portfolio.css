@@ -28,7 +28,7 @@ a:hover {
   color:white;
   text-align: center;
   font-size:350%;
-  margin-top:20%
+  margin-top:19%
 }
 .arrow{
   position: absolute;
@@ -64,4 +64,30 @@ a:hover {
       opacity: 0;
       transform: rotate(45deg) translate(20px,20px);
   }
+}
+.projects {
+  margin-top:5%
+}
+
+.internship {
+  margin-top:4%
+}
+
+.cirrus {
+  margin-top:9%
+}
+.links {
+  margin-top:5%
+}
+
+.linkedin {
+  width: 35%;
+}
+
+.git {
+  width: 40%;
+
+}
+.resume {
+  width:30%;
 }
