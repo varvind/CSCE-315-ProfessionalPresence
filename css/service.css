@@ -28,11 +28,11 @@ a:hover {
   color:white;
   text-align: center;
   font-size:350%;
-  margin-top:21%
+  margin-top:20%
 }
 .arrow{
   position: absolute;
-  top: 72%;
+  top: 76%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
