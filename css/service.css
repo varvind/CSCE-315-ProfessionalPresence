@@ -19,7 +19,7 @@ a:hover {
   margin-left:15%
 }
 .main {
-  background-image: url('../images/IMG_2292.JPG');
+  background-image: url('../images/DSC_0144\ 2.JPG');
   background-position:center;
   background-size: cover;
   height: 1100px;
@@ -32,7 +32,7 @@ a:hover {
 }
 .arrow{
   position: absolute;
-  top: 70%;
+  top: 72%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
