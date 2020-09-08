@@ -19,21 +19,16 @@ a:hover {
   margin-left:15%
 }
 .main {
-  background-image: url('../images/IMG-4210.JPG');
+  background-image: url('../images/IMG_2292.JPG');
   background-position:center;
   background-size: cover;
   height: 1100px;
-}
-.profileimg {
-  margin-top: 10%;
-  border-radius: 99%;
-  width:10%;
 }
 .title {
   color:white;
   text-align: center;
   font-size:350%;
-  
+  margin-top:21%
 }
 .arrow{
   position: absolute;
@@ -70,68 +65,14 @@ a:hover {
       transform: rotate(45deg) translate(20px,20px);
   }
 }
-.school {
-  margin-top:9%
-}
-.tamuLogo {
-  width:120%
-}
-.schoolDescription.top{
-  margin-top:30%;
+.service {
+  margin-top: 5%;
 }
 
-.schoolDescription {
-  font-size:200%;
-}
-.myfamily {
-  margin-top:-10%
-}
-.family {
-  width:40%;
-  margin-top:60%;
-  margin-left:-20%
-}
-.friends {
-  height:400px;
-  margin-left:-8%;
-  margin-top:12%
-}
-.friends-2 {
-  margin-top:-40%;
-  width:40%
-}
-.friends-3 {
-  width:40%;
-  margin-left:-20%;
-  margin-top:-10%
+.AHT {
+  width:80%
 }
 
-.travel {
-  margin-top:5%
-}
-.travelTitle {
-  text-align: center;
-  text-decoration:underline;
-}
-.swisspic {
-  width: 90%;
-}
-.romepic {
-  width:90%;
-  margin-top:-8%;
-  margin-left:40%
-}
-.travel-title {
-  margin-top:30%;
-  text-align:center
-}
-
-.other {
-  margin-top:4%;
-  text-decoration: underline;
-  text-align:center;
-}
-
-.tennis {
-  height:10%
+.viper {
+  width: 60%
 }
